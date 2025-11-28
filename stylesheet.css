@@ -146,3 +146,19 @@ span.highlight {
     display: inline-block;
     border-radius: 10px;
 }
+
+/* Override oversized images */
+img {
+  max-width: 160px !important;
+  height: auto !important;
+}
+
+/* Make name/title appear bolder like the template you prefer */
+.name {
+  font-weight: 700 !important;
+}
+
+/* Improve paragraph text visibility */
+p {
+  font-weight: 400 !important;
+}
