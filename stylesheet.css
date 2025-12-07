@@ -80,7 +80,7 @@ th,
 tr,
 p,
 a {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-family: 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 16px;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
@@ -88,7 +88,7 @@ a {
 }
 
 strong {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-family: 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 16px;
   line-height: 1.6;
   font-weight: 600;
@@ -97,13 +97,13 @@ strong {
 h2 {
   margin: 0;
   font-weight: normal;
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-family: 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 24px;
   line-height: 1.4;
 }
 
 .papertitle {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-family: 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 16px;
   font-weight: 700;
 }
@@ -111,7 +111,7 @@ h2 {
 .name {
   padding-top: 20px;
   margin: 0;
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-family: 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 32px;
 }
 
@@ -161,4 +161,29 @@ img {
 /* Improve paragraph text visibility */
 p {
   font-weight: 400 !important;
+}
+
+.zh-name {
+  display: block;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 4px;
+}
+
+.research-section {
+  margin-top: 12px;
+}
+
+.research-heading {
+  margin: 0 0 6px 0;
+  font-weight: 600;
+}
+
+.research-section ul {
+  margin: 6px 0 12px 20px;
+  padding-left: 0;
+}
+
+.research-section li {
+  margin: 2px 0;
 }
